@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url('https://thumbs.dreamstime.com/b/rain-drops-window-sunset-background-2-212199.jpg'); */
+    /* background-image: url('https://wallpapercave.com/wp/NdaWRbt.jpg'); */
+    background-image: url('https://images.pexels.com/photos/50677/rain-after-the-rain-a-drop-of-drop-of-rain-50677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.invalid {
+    /* background-color: rgb(221, 80, 80); */
+    background-color: #842029;
+    color: white;
+    height: 6.5vh;
+    text-align: center;
+    display: none;
+}
+
+.result {
+    /* background-color: rgb(221, 80, 80); */
+    background-color: #0f5132;;
+    color: white;
+    height: 8vh;
+    text-align: center;
+    display: none;
+}
+
+.disp {
+    display: block;
+}
+
+.bh {
+    height: 2vw;
+    width: 2vw;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.whole {
+    padding: 20px;
+    height: 100%;
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    /* margin-left: 30%; */
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 2px;
+    width: 38%;
+}
+
+.box {
+    /* height: 90px;
+    width: 90px; */
+    height: 5vw;
+    width: 5vw;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.fillr {
+    background-color: red;
+}
+
+.fillb {
+    background-color: blue;
+}
+
+.fill {
+    background-color: black;
+}
+
+.taken {
+    align-items: center;
+}
+
